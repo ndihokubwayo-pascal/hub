@@ -1,0 +1,68 @@
+🚀 Steps to Set Up Your RSSBDMS Frontend Demo
+1. Initialize a New Frontend Project
+Use a modern frontend framework like React with Next.js for optimal performance and scalability.
+Create a new Next.js app:
+bash
+CopyEdit
+  npx create-next-app@latest rssbdms-frontend
+  cd rssbdms-frontend
+Install necessary dependencies:
+bash
+CopyEdit
+  npm install
+2. Implement Mock Data
+Create a data directory to store your mock JSON files representing members, contributions, and benefits.
+Example: data/members.json
+json
+CopyEdit
+  [
+    {
+      "member_id": "001",
+      "name": "John Doe",
+      "date_of_birth": "1990-01-01",
+      "gender": "Male",
+      "contact_info": {
+        "email": "john.doe@example.com",
+        "phone": "+250788123456"
+      },
+      "address": "Kigali, Rwanda",
+      "registration_date": "2025-01-15"
+    }
+    // Add more member objects
+  ]
+Repeat similar structures for contributions.json and benefits.json.
+3. Design the User Interface
+Login Page: Create a login form that authenticates users using the provided credentials.
+Dashboard:
+oTop Bar: Include branding elements like the RSSB logo, system name, and tagline.
+oSidebar Navigation: Provide links to modules such as Member Registration, Contributions Tracking, and Benefit Processing.
+oMain Content Area: Display data fetched from the mock JSON files.
+4. Implement Multilingual Support
+Use a library like react-i18next to add multilingual capabilities.
+Installation:
+bash
+CopyEdit
+  npm install react-i18next i18next
+Configuration: Set up translation files for Kinyarwanda, French, and English.
+5. Deploy to Vercel
+Initialize a Git Repository:
+bash
+CopyEdit
+  git init
+  git add .
+  git commit -m "Initial commit"
+Push to GitHub:
+bash
+CopyEdit
+  git remote add origin https://github.com/your-username/rssbdms-frontend.git
+  git push -u origin main
+Deploy on Vercel:
+oSign in to Vercel and import your GitHub repository.
+oFollow the prompts to deploy your project.
+oOnce deployed, Vercel will provide a live URL (e.g., https://rssbdms-frontend.vercel.app) for testing.
+
+🔐 Login Credentials for Testing
+Username: ndihokubwayo.pascal
+Password: Mbabazi@1DEV Community+1GitHub+1
+
+By following these steps, you'll have a functional frontend demo of the RSSBDMS system using mock data, ready for testing and presentation. If you need assistance with any of these steps or further customization, feel free to ask!
