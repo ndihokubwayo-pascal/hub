@@ -1,0 +1,38 @@
+Fantastic! Let's proceed with setting up the RSSBDMS (Rwanda Social Security Board Data Management System) frontend demo using mock data. This approach will allow you to:
+Test the user interface (UI): Experience the login process, multilingual support, and dashboard layout.
+Showcase functionalities: Demonstrate modules such as member registration, contributions tracking, and benefit processing.
+Gather feedback: Present the system to stakeholders and incorporate their input before backend integration.
+🔐 Login Credentials for Testing
+Username: ndihokubwayo.pascal
+Password: Mbabazi@1
+🌐 Deployment Details
+The frontend will be deployed on Vercel, providing you with a live demo link for immediate access and testing. This setup uses mock JSON data to simulate real-world scenarios, ensuring a seamless demonstration experience.
+🗂️ Mock Data Structure
+To simulate realistic data, we'll use a mock JSON structure inspired by standard insurance modules. Here's an overview of the data schema:
+Members: Contains information about individuals registered in the system.
+omember_id: Unique identifier for each member.
+oname: Full name of the member.
+odate_of_birth: Date of birth.
+ogender: Gender.
+ocontact_info: Contact details, including email and phone number.
+oaddress: Residential address.
+oregistration_date: Date the member registered.
+Contributions: Records of financial contributions made by members.
+ocontribution_id: Unique identifier for each contribution.
+omember_id: Identifier linking to the contributing member.
+oamount: Contribution amount.
+odate: Date of contribution.
+ostatus: Status of the contribution (e.g., paid, pending).
+Benefits: Details of benefits allocated to members.
+obenefit_id: Unique identifier for each benefit.
+omember_id: Identifier linking to the beneficiary.
+otype: Type of benefit (e.g., pension, health).
+oamount: Benefit amount.
+ostatus: Status of the benefit (e.g., approved, pending).
+odate: Date the benefit was allocated.
+This structure is designed to align with typical insurance data management systems, facilitating a comprehensive demonstration of the RSSBDMS functionalities.
+🎯 Next Steps
+1.Deployment: The frontend will be deployed on Vercel using the mock data structure outlined above.
+2.Live Demo Link: Once deployment is complete, you'll receive a link to access the live demo.
+3.Feedback: Test the system and provide feedback for any adjustments or enhancements.
+If you have any specific requirements or additional features you'd like to include in the demo, please let me know.
